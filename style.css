@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container1{
+    display: flex;
+    background-color: rgb(27, 26, 26);
+    padding-bottom: 20px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5px;
+    color: white;
+}
+h1{
+    font-size: 30px;
+}
+.half-width img{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.name-highlight{
+    color: crimson;
+}
+.link-btn{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding: 8px 22px;
+    background-image: radial-gradient(ellipse at bottom,rgb(162, 0, 255),rgb(4, 250, 106));
+    color: white;
+    border-radius: 5px;
+    
+}
+.container2{
+    display: flex;
+        background-color: black;
+}
+#pic2{
+width: 60%;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.experience-area{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(27, 26, 26);
+    padding-bottom: 20px;
+    padding-top: 6px;
+}
+.exp1{
+    
+    border-radius: 20px;
+    width: 30%;
+    background-image: url(https://t4.ftcdn.net/jpg/01/98/24/71/360_F_198247162_JwrVkhqowZb4NJC24156nV6QYRhsV8Qf.jpg);
+    box-shadow: 1px 1px 10px white;
+    color: white;
+    text-align: center;
+}
+.exp2{
+    width: 30%;
+    background-image: url(https://t4.ftcdn.net/jpg/01/98/24/71/360_F_198247162_JwrVkhqowZb4NJC24156nV6QYRhsV8Qf.jpg);
+    box-shadow: 1px 1px 10px white;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.exp3{
+   
+    width: 30%;
+    background-image: url(https://t4.ftcdn.net/jpg/01/98/24/71/360_F_198247162_JwrVkhqowZb4NJC24156nV6QYRhsV8Qf.jpg);
+    box-shadow: 1px 1px 10px white;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+ #experience{
+    color: crimson;
+    text-align: center;
+    background-color: rgb(27, 26, 26);
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 12px;
+}
+#contactME{
+    padding: 50px;
+    margin-left: 0px;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 20px;
+   
+    
+}
+#contact-me{
+    background-color: black;
+    margin: 0;
+    color:crimson;
+    text-align: center;
+    padding: 12px;
+}
